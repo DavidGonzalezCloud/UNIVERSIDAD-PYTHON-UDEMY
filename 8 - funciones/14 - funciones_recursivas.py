@@ -13,5 +13,5 @@ def funcion_recursiva(numero):
 
 # Solicitamos numero y llamamos a la funcion
 
-numero = int(input('Ingrese un numero entero: '))
-funcion_recursiva(numero)
+numero_solicitado = int(input('Ingrese un numero entero: '))
+funcion_recursiva(numero_solicitado)

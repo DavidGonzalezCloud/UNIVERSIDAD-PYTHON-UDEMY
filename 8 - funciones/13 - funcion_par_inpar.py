@@ -11,5 +11,5 @@ def es_par(numero):
 #Llamamos a la funcion
 
 if __name__ == '__main__':
-    numero = int(input('Proporciona un calor entero: '))
-    print(f'Numero par?: {es_par(numero)}')
+    numero_solicitado = int(input('Proporciona un calor entero: '))
+    print(f'Numero par?: {es_par(numero_solicitado)}')
