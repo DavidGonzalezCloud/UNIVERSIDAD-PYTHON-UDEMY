@@ -8,11 +8,11 @@ def mostrar_inventario(imprimir_productos):
         print(f'Id: {imprimir.get('id')}, Nombre: {imprimir.get('nombre')}, Precio: ${imprimir.get('precio')}, Cantidad: {imprimir.get('cantidad')}.')
 
 def agregar_inventario():
-    id = int(input('ID: '))
+    id_producto = int(input('ID: '))
     nombre = input('Nombre del producto: ')
     precio = float(input('Precio del producto: '))
     cantidad = int(input('Cnatidad de productos: '))
-    producto = [id, nombre, precio, cantidad]
+    producto = [id_producto, nombre, precio, cantidad]
     return producto
 
 def buscar_produto_id():
@@ -47,4 +47,3 @@ while opcion_menu != 4:
 
     else:
         print('\nLa opcion seleccionada no es valida, seleccion opcion correcta. ')
-
